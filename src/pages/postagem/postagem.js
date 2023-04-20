@@ -9,6 +9,8 @@ import {
   descurtindoPostagem,
 } from '../../firebase/firebase';
 import logoPostagem from '../../imagens/mev-postagem.png';
+import likeVazio from '../../imagens/tacavazia.png';
+import likeCheio from '../../imagens/tacacheia.png';
 
 // monta a tela das postagens
 const postagem = async () => {
@@ -54,8 +56,8 @@ const postagem = async () => {
         <textarea class="texto-usuaria-postado" id="texto-usuaria-postado" style='resize:none' disabled>${post.texto}</textarea>
         <span class="icones-inferiores">
         <button class="btn-curtir">
-        <img id="taca-vazia" src="./imagens/tacavazia.png">
-        <img id="taca-cheia" src="./imagens/tacacheia.png">
+        <img id="taca-vazia" src="${likeVazio}">
+        <img id="taca-cheia" src="${likeCheio}">
         </button>
         <button class="btn-excluir">
         <i class="fa-solid fa-trash-can" id="btn-excluir-${post.id}" type="button" value="${post.id}"></i>

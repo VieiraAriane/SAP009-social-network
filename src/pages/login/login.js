@@ -8,6 +8,7 @@ import {
 
 import imagemDesktop from '../../imagens/img-desktop.png';
 import logoLogin from '../../imagens/logomeve.png';
+import iconeGoogle from '../../imagens/icone-google.png';
 
 const criarLogin = document.createElement('div');
 criarLogin.classList.add('container-login'); // adiciona classe à div.
@@ -34,7 +35,7 @@ const login = () => {
       <section class="login-com">
         <p class="login-google">Login com</p>
         <button class="btn-google" type="button">
-          <img src="./imagens/icone google.png" alt="icone google">
+          <img src="${iconeGoogle}" alt="icone google">
         </button>
       </section>
       <div class='img-desktop-login'> 

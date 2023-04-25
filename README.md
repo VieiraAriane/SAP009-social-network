@@ -15,7 +15,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="height: 30px;"/>
 
   <br>
-  Confira o resultado do projeto [aqui](LINK PROJETO)
+  Confira o resultado do projeto [aqui](https://maes-bcdb0.firebaseapp.com/)
   <br><br>
   
  Desenvolvido por Ariane Vieira<br>
